@@ -1,0 +1,20 @@
+.input-default {
+    display: flex;
+    flex-direction: column;
+
+    span {
+        color: var(--global-secondary-color);
+        font-family: 'Roboto', sans-serif;
+    }
+
+    input {
+        height: 28px;
+        border-radius: 5px;
+        border: solid 1px #acacac;
+        padding: 2px 5px;
+        outline: none;
+        color: var(--global-input-color);
+        background-color: #fff;
+    }
+
+}

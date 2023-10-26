@@ -1,0 +1,38 @@
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
+    width: 250px;
+    height: 100%;
+    
+    background-color: var(--global-primary-background-color);
+    
+    ul {
+        width: 100%;
+        margin-top: 30px;
+        list-style-type: none;
+    }
+
+    li {
+        color: var(--global-secondary-color);
+        font-size: var(--global-primary-font-size);
+        font-weight: var(--global-primary-font-weight);
+        font-family: 'Roboto', sans-serif;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        margin: 30px 0;
+        width: 100%;
+        height: 50px;
+        
+        &:hover {
+            cursor: pointer;
+            color: var(--global-primary-background-color);
+            background-color: var(--global-third-background-color);
+        }
+    }
+}
